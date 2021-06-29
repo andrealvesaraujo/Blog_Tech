@@ -17,10 +17,74 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: none;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body{
-    font-size: 62.5%;
+    height: 100vh;
     font-family: LexendDeca, sans-serif;
     background-color: var(--grey);
 }
+
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.content header {
+    padding: 4.1rem 27rem;
+    background-image: var(--linear);
+}
+
+
+.content header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7.3rem;
+}
+
+.content header nav a {
+    color: var(--white);
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+.content header div {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: .1rem solid transparent;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    padding: 1.8rem 1.7rem 1.7rem 1.7rem;
+}
+
+.content header div img {
+    margin-right: 1.7rem;
+}
+
+.content header div input {
+    background-color: transparent;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-family: Inter;
+    line-height: 2.2rem;
+    outline: none;
+    width: 100%;
+
+}
+
+.content header div input::placeholder {
+    font-size: 1.8rem;
+    color: var(--white);
+    opacity: 0.5;
+}
+
+
