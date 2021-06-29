@@ -59,7 +59,6 @@ body{
 
 .content header div {
     background-color: rgba(255, 255, 255, 0.2);
-    border: .1rem solid transparent;
     border-radius: .5rem;
     display: flex;
     align-items: center;
@@ -98,6 +97,7 @@ body{
     padding: 2.2rem 2.5rem 2.5rem 2.5rem;
     width: 100%;
     height: auto;
+    margin-bottom: 5rem;
 }
 
 .content main .container div {
@@ -111,11 +111,6 @@ body{
     font-size: 1.6rem;
     line-height: 2rem;
     color: var(--text);
-}
-
-.content main .container div image {
-    width: 25px;
-    height: 25px;
 }
 
 .content main .container h2 {
