@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Inter;
+    src: url("/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("/fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: LexendDeca;
+    src: url("/fonts/LexendDeca-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: LexendDeca, sans-serif;
+    background-color: var(--grey);
+}
