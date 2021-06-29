@@ -25,9 +25,11 @@ html {
 }
 
 body{
+
     height: 100vh;
     font-family: LexendDeca, sans-serif;
     background-color: var(--grey);
+
 }
 
 
@@ -38,7 +40,7 @@ body{
 
 
 .content header {
-    padding: 4.1rem 27rem;
+    padding: 4.8rem 2rem;
     background-image: var(--linear);
 }
 
@@ -47,13 +49,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 7.3rem;
+    margin-bottom: 4.1rem;
 }
 
 .content header nav a {
     color: var(--white);
-    font-size: 2.4rem;
-    line-height: 3rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     text-decoration: none;
 }
 
@@ -62,32 +64,34 @@ body{
     border-radius: .5rem;
     display: flex;
     align-items: center;
-    padding: 1.8rem 1.7rem 1.7rem 1.7rem;
+    padding: 1rem .7rem 1rem .7rem;
 }
 
 .content header div img {
-    margin-right: 1.7rem;
+    margin-right: 1.1rem;
+    width: 20px;
+    height: 20px;
 }
 
 .content header div input {
     background-color: transparent;
     color: var(--white);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: Inter;
-    line-height: 2.2rem;
+    line-height: 1.7rem;
     outline: none;
     width: 100%;
 
 }
 
 .content header div input::placeholder {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--white);
     opacity: 0.5;
 }
 
 .content main {
-    padding: 10rem 27rem;
+    padding: 0;
 }
 
 .content main .container {
@@ -125,4 +129,71 @@ body{
     font-size: 1.8rem;
     line-height: 3.2rem;
     color: var(--text);
+}
+
+@media(min-width: 767.98px) {
+
+    .content header {
+        padding: 4.1rem 27rem;
+    }
+    
+    
+    .content header nav {
+        margin-bottom: 7.3rem;
+    }
+    
+    .content header nav a {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    
+    .content header div {
+        padding: 1.8rem 1.7rem 1.7rem 1.7rem;
+    }
+    
+    .content header div img {
+        margin-right: 1.7rem;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .content header div input {
+        font-size: 1.8rem;
+        font-family: Inter;
+        line-height: 2.2rem;    
+    }
+    
+    .content header div input::placeholder {
+        font-size: 1.8rem;
+    }
+    
+    .content main {
+        padding: 10rem 27rem;
+    }
+    
+    .content main .container {
+        padding: 2.2rem 2.5rem 2.5rem 2.5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .content main .container div {
+        margin-bottom: 2rem;
+    }
+    
+    .content main .container div span {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    
+    .content main .container h2 {
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+        margin-bottom: .8rem;
+    }
+    
+    .content main .container p {
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+    }
+
 }
