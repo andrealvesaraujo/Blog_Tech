@@ -5,7 +5,7 @@ const sr = ScrollReveal({
     reset: true
 });
 
-ScrollReveal().reveal('.container-post', { delay: 200 });
-ScrollReveal().reveal('.date', { delay: 400 });
-ScrollReveal().reveal('.title', { delay: 500 });
-ScrollReveal().reveal('.description', { delay: 600 });
+ScrollReveal().reveal('.container-post', { delay: 100 });
+ScrollReveal().reveal('.date', { delay: 300 });
+ScrollReveal().reveal('.title', { delay: 400 });
+ScrollReveal().reveal('.description', { delay: 500 });
