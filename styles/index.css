@@ -94,7 +94,7 @@ body{
     padding: 5rem 2rem;
 }
 
-.content main .container {
+.content main .container-post {
     background: var(--white);
     box-shadow: 0rem 0rem 1rem rgba(19, 19, 31, 0.05);
     border-radius: .5rem;
@@ -104,20 +104,20 @@ body{
     margin-bottom: 2.5rem;
 }
 
-.content main .container div {
+.content main .container-post div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5rem;
 }
 
-.content main .container div span {
+.content main .container-post div span {
     font-size: 1.4rem;
     line-height: 1.7rem;
     color: var(--text);
 }
 
-.content main .container h2 {
+.content main .container-post h2 {
     font-size: 1.8rem;
     line-height: 2.2rem;
     color: var(--title);
@@ -125,7 +125,7 @@ body{
     font-weight: 400;
 }
 
-.content main .container p {
+.content main .container-post p {
     font-size: 1.4rem;
     line-height: 2.6rem;
     color: var(--text);
@@ -134,7 +134,7 @@ body{
 @media(min-width: 767.98px) {
 
     .content header {
-        padding: 4.1rem 27rem;
+        padding: 4.1rem 20rem;
     }
     
     
@@ -168,30 +168,30 @@ body{
     }
     
     .content main {
-        padding: 10rem 27rem;
+        padding: 10rem 20rem;
     }
     
-    .content main .container {
+    .content main .container-post {
         padding: 2.2rem 2.5rem 2.5rem 2.5rem;
         margin-bottom: 5rem;
     }
     
-    .content main .container div {
+    .content main .container-post div {
         margin-bottom: 2rem;
     }
     
-    .content main .container div span {
+    .content main .container-post div span {
         font-size: 1.6rem;
         line-height: 2rem;
     }
     
-    .content main .container h2 {
+    .content main .container-post h2 {
         font-size: 2.6rem;
         line-height: 3.2rem;
         margin-bottom: .8rem;
     }
     
-    .content main .container p {
+    .content main .container-post p {
         font-size: 1.8rem;
         line-height: 3.2rem;
     }
